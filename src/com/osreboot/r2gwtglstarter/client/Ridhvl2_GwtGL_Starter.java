@@ -1,6 +1,7 @@
 package com.osreboot.r2gwtglstarter.client;
 
 import com.google.gwt.canvas.client.Canvas;
+import com.google.gwt.core.client.Duration;
 import com.google.gwt.core.client.EntryPoint;
 import com.google.gwt.user.client.Timer;
 import com.google.gwt.user.client.Window;
@@ -35,7 +36,7 @@ public class Ridhvl2_GwtGL_Starter implements EntryPoint{
 			Timer timer = new Timer(){
 				@Override
 				public void run(){
-					glContext.clearColor(1f, HvlMath.map((float)Math.random(), 0f, 1f, 0f, 0.5f), 1f, 1f);
+					glContext.clearColor(1f, HvlMath.map((float)Math.cos(Duration.currentTimeMillis() / 1000f), -1f, 1f, 0f, 1f), 1f, 1f);
 					glContext.clear(WebGLRenderingContext.COLOR_BUFFER_BIT);
 				}
 			};
