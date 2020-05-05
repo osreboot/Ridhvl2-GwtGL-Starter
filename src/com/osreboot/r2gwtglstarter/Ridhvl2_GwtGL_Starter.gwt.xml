@@ -19,6 +19,7 @@
 
   <!-- Other module inherits                                      -->
   <inherits name='com.googlecode.gwtgl.binding'/>
+  <inherits name='com.osreboot.ridhvl2'/>
 
   <!-- Specify the app entry point class.                         -->
   <entry-point class='com.osreboot.r2gwtglstarter.client.Ridhvl2_GwtGL_Starter'/>

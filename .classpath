@@ -9,5 +9,7 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="war/WEB-INF/lib/gwtgl-0.9.1-sources.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/ridhvl2.jar" sourcepath="war/WEB-INF/lib/ridhvl2-sources.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/ridhvl2-sources.jar"/>
 	<classpathentry kind="output" path="war/WEB-INF/classes"/>
 </classpath>
